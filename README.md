@@ -9,6 +9,8 @@
 
 > Use https every time you fetch
 
+See [github.com/pablopunk/microsec](https://github.com/pablopunk/microsec) to see the problem I'm trying to solve with this.
+
 
 ## Install
 
