@@ -10,7 +10,7 @@ async function customFetch(urlToFetch, ...args) {
   if (parsedUrl.protocol === 'https:') {
     return this.fetch(urlToFetch, ...args);
   }
-  return this.fetch(microsecify(parsedUrl));
+  return this.fetch(microsecify(parsedUrl), ...args);
 }
 
 const factory = fetch => {
