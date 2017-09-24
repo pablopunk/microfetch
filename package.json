@@ -1,7 +1,7 @@
 {
   "name": "microfetch",
   "description": "Use https every time you fetch",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Pablo Varela <pablovarela182@gmail.com> (https://pablo.life)",
   "bugs": {
     "url": "https://github.com/pablopunk/microfetch/issues",
