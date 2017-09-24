@@ -10,15 +10,6 @@
 > Use https every time you fetch
 
 
-## Table of Contents
-
-* [Install](#install)
-* [Usage](#usage)
-* [Author](#author)
-* [License](#license)
-* [Contributors](#contributors)
-
-
 ## Install
 
 ```sh
