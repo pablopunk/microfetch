@@ -9,14 +9,7 @@
 
 > Use https every time you fetch
 
-
-## Table of Contents
-
-* [Install](#install)
-* [Usage](#usage)
-* [Author](#author)
-* [License](#license)
-* [Contributors](#contributors)
+See [github.com/pablopunk/microsec](https://github.com/pablopunk/microsec) to see the problem I'm trying to solve with this.
 
 
 ## Install
