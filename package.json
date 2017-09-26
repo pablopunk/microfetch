@@ -42,7 +42,7 @@
   "license": "MIT",
   "lint-staged": {
     "*.{js,jsx,mjs,ts,tsx,css,less,scss,json,graphql}": [
-      "prettier --write --single-quote --trailing-comma none",
+      "prettier --write --single-quote --trailing-comma none --semi false",
       "git add"
     ],
     "*.md": ["remark . -qfo", "git add"]
@@ -81,7 +81,8 @@
         {
           "singleQuote": true,
           "bracketSpacing": true,
-          "trailingComma": "none"
+          "trailingComma": "none",
+          "semi": false
         }
       ],
       "max-len": [
