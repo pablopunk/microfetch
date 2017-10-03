@@ -28,7 +28,7 @@ Use any fetch module similar to `node-fetch` (see `test.js` for examples):
 
 ```js
 const fetch = require('isomorphic-fetch')
-const microfetch = require('microfetch')
+const microfetch = require('microfetch')(fetch)
 
 const result = await microfetch(url)
 ```
