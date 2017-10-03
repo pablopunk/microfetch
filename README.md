@@ -26,7 +26,7 @@ npm install microfetch
 
 Use any fetch module similar to `node-fetch` (see `test.js` for examples):
 
-```sh
+```js
 const fetch = require('isomorphic-fetch')
 const microfetch = require('microfetch')
 
