@@ -1,6 +1,4 @@
 .DS_Store
-*.log
-.idea
 node_modules
-coverage
+coverage*
 .nyc_output

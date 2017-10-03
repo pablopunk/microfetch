@@ -1,5 +1,5 @@
 const test = require('ava')
-const microfetch = require('..')
+const microfetch = require('.')
 const isomorphicFetch = require('isomorphic-fetch')
 const got = require('got')
 const nodeFetch = require('node-fetch')
