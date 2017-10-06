@@ -12,7 +12,7 @@
   <i>Use https every time you fetch</i>
 </p>
 
-See [pablopunk/microsec](github.com/pablopunk/microsec) to see the problem I'm trying to solve with this.
+See [pablopunk/microsec](https://github.com/pablopunk/microsec) to see the problem I'm trying to solve with this.
 
 
 ## Install
