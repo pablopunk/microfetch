@@ -28,7 +28,7 @@ test('works with node-fetch', async t => {
   t.true(/^https.*$/.test(result.url))
 })
 
-test("Don't modify https", async t => {
+test('Does not modify https', async t => {
   const f = microfetch(isomorphicFetch)
   const result = await f(secureUrl)
   t.true(result.ok)
