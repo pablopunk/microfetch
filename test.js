@@ -28,9 +28,14 @@ test('works with node-fetch', async t => {
   t.true(/^https.*$/.test(result.url))
 })
 
-test('Does not modify https', async t => {
+test('does not modify https', async t => {
   const f = microfetch(isomorphicFetch)
   const result = await f(secureUrl)
   t.true(result.ok)
   t.is(result.url, 'https://pablo.life')
+})
+
+test('thows error with null fetch', async t => {
+  const err = t.throws(() => microfetch(null), TypeError)
+  t.regex(err.message, /cannot be null/i)
 })

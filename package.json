@@ -53,6 +53,7 @@
     "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
     "lint": "standard",
     "test": "npm run lint && npm run test-coverage",
-    "test-coverage": "nyc ava"
+    "test-coverage": "nyc ava",
+    "tdd": "ava --watch"
   }
 }
